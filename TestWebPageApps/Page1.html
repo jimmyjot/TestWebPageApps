@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="StyleSheet1.css" />
+    <script src="selectListen.js"></script>
     <title>Seven Habits of Highly Effective People</title>
 </head>
 <body>
@@ -11,18 +12,23 @@
         MISSION STATEMENT
     </div>
     <div class="rolesEtcLeft">
-        <select id="OptionsLeft">
-            <option value="Values">Values</option>
-            <option value="Roles" selected="selected">Values</option>
+        <select class="Options" id="OptionsLeft">
+            <option value="Values" selected="selected">Values</option>
+            <option value="Roles">Roles</option>
             <option value="Role1">Role 1</option>
             <option value="Role2">Role 2</option>
             <option value="Role3">Role 3</option>
             <option value="Role4">Role 4</option>
             <option value="Weekly Compass">Weekly Compass</option>
        </select>
+       <br />
+       <div class="rolesEtcText" id="rETLeft">
+       This is the first choice
+       </div>
     </div>
+    <div class="result">Result Area Left</div>
     <div class="rolesEtcMiddle">
-        <select id="OptionsMiddle">
+        <select class="Options" id="OptionsMiddle">
             <option value="Values">Values</option>
             <option value="Roles" selected="selected">Roles</option>
             <option value="Role1">Role 1</option>
@@ -31,9 +37,12 @@
             <option value="Role4">Role 4</option>
             <option value="Weekly Compass">Weekly Compass</option>
        </select>
+       <br />
+       This is the second choice
     </div>
+    <div class="result">Result Area Middle</div>
     <div class="rolesEtcRight">
-        <select id="OptionsRight">
+        <select class="Options" id="OptionsRight">
             <option value="Values">Values</option>
             <option value="Roles">Roles</option>
             <option value="Role1">Role 1</option>
@@ -42,6 +51,9 @@
             <option value="Role4">Role 4</option>
             <option value="Weekly Compass" selected="selected">Weekly Compass</option>
         </select>
+        <br />
+        This is the third choice
     </div>
+    <div class="result">Result Area Right</div>
 </body>
 </html>

@@ -1,15 +1,18 @@
 ﻿body {
     display: grid;
     width: 100%;
-    height: 100%;
+    height: 8in;
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
     grid-gap: 1em;
     align-content: space-between;
+    box-sizing: border-box;
+    padding: 2em;
 }
 
 .mission {
     color: yellow;
     background-color: rebeccapurple;
+    display: grid;
     grid-column: span 3;
     grid-row: 1;
     text-align: center;
@@ -20,6 +23,8 @@
 .rolesEtcLeft {
     color: darkgreen;
     background-color: lightgreen;
+    grid-column: 1;
+    grid-row: 2;
     text-align: center;
     vertical-align: middle;
 }
@@ -27,6 +32,8 @@
 .rolesEtcMiddle {
     color: green;
     background-color: powderblue;
+    grid-column: 2;
+    grid-row: 2;
     text-align: center;
     vertical-align: middle;
 }
@@ -34,6 +41,37 @@
 .rolesEtcRight {
     color: darkblue;
     background-color: deepskyblue;
+    grid-column: 3;
+    grid-row: 2;
     text-align: center;
     vertical-align: middle;
+}
+
+.resultLeft {
+    color: black;
+    background-color: lightgreen;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#OptionsLeft {
+    background-color: lightgreen;
+    border: solid;
+}
+
+#OptionsMiddle {
+    background-color: powderblue;
+    border: solid;
+}
+
+#OptionsRight {
+    background-color: deepskyblue;
+    border: solid;
+}
+
+.rolesEtcText {
+    font-family: 'Courier New', Courier, monospace;
+    vertical-align: baseline;
 }
