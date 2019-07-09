@@ -1,0 +1,84 @@
+img {
+    display: block;
+    width: 260px;
+    height: 232px;
+}
+
+svg.polygon {
+    top: 0px;
+    left: 0px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    position: absolute;
+    color: black;
+    z-index: 10;
+}
+
+#a1 {
+    background-color: aqua;
+    left: 130px;
+    top: 147px;
+}
+#a2 {
+    background-color: aqua;
+    left: 200px;
+    top: 107px;
+}
+#a3 {
+    background-color: aqua;
+    left: 254px;
+    top: 219px;
+}
+#a4 {
+    background-color: aqua;
+    left: 130px;
+    top: 228px;
+}
+
+#b1 {
+    background-color: lavender;
+    left: 130px;
+    top: 147px;
+}
+#b2 {
+    background-color: lavender;
+    left: 130px;
+    top: 228px;
+}
+#b3 {
+    background-color: lavender;
+    left: 6px;
+    top: 219px;
+}
+#b4 {
+    background-color: lavender;
+    left: 59px;
+    top: 107px;
+}
+
+#c1 {
+    background-color: pink;
+    left: 130px;
+    top: 147px;
+}
+#c2 {
+    background-color: pink;
+    left: 200px;
+    top: 107px;
+}
+#c3 {
+    background-color: pink;
+    left: 130px;
+    top: 4px;
+}
+#c4 {
+    background-color: pink;
+    left: 59px;
+    top: 107px;
+}
+
