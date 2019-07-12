@@ -3,6 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: rgb(181, 123, 235);
 }
 
 li {
@@ -16,6 +17,5 @@ li:last-child {
 li a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
 }
 
